@@ -4,4 +4,8 @@
     <string name="Small_Title_Usuario">Usuario</string>
     <string name="Small_Title_Password">Contraseña</string>
     <string name="linkPassword">¿Olvidaste la contraseña?</string>
+    <string name="Tituloredes">Ó podes ingresar con</string>
+    <string name="PiePagina1">¿No tenes cuenta?</string>
+    <string name="PiePagina2">Registrate</string>
+    <string name="PiePagina3">Continuar como invitado</string>
 </resources>

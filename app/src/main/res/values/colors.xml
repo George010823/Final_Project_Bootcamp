@@ -9,5 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="yellow_background">#EFC844</color>
     <color name="small_title">#9c9c9c</color>
-    <color name="Small_Title_gray">#757575</color>
+    <color name="Small_Title_gray">#717171</color>
+    <color name="Boton_Login">#C2BDBD</color>
 </resources>
