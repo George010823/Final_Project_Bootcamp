@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="SizeText_SmallTitle">20sp</dimen>
+    <dimen name="layout_marginStart_EditText">40sp</dimen>
+    <dimen name="layout_marginEnd_EditText">40sp</dimen>
+    <dimen name="layout_height_EditText">50sp</dimen>
+    <dimen name="paddingStart_EditText">30sp</dimen>
+</resources>

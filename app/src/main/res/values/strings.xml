@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Final Project Bootcamp</string>
+    <string name="Title_Logo">IMDb</string>
+    <string name="Small_Title_Usuario">Usuario</string>
+    <string name="Small_Title_Password">Contraseña</string>
+    <string name="linkPassword">¿Olvidaste la contraseña?</string>
 </resources>

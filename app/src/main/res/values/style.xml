@@ -2,13 +2,31 @@
 <resources>
     <!--Estilo de background para los diseños de splash y login -->
         <style name="BackgroundApp"  parent="TextAppearance.AppCompat">
-            <item name="android:background">#EFC844</item>
+            <item name="android:background">@color/yellow_background</item>
         </style>
 
     <!--Estilo de background-fuente-text para el logo de la aplicacion -->
     <style name="BacGro_FonFam_Tex"  parent="TextAppearance.AppCompat">
-        <item name="android:background">#EFC844</item>
+        <item name="android:background">@color/yellow_background</item>
         <item name="android:fontFamily">@font/anton</item>
-        <item name="android:text">IMDb</item>
+        <item name="android:text">@string/Title_Logo</item>
+    </style>
+
+    <!--Estilos para los titulos pequeños de la aplicacion -->
+    <style name="Small_Title" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:background">@color/yellow_background</item>
+        <item name="android:textColor">@color/Small_Title_gray</item>
+        <item name="android:textSize">@dimen/SizeText_SmallTitle</item>
+        <item name="android:layout_marginStart">@dimen/layout_marginStart_EditText</item>
+        <item name="android:layout_marginEnd">@dimen/layout_marginEnd_EditText</item>
+    </style>
+
+    <!--Estilos para las editTex de login -->
+    <style name="EditText_Login" parent="TextAppearance.AppCompat">
+        <item name="android:layout_marginStart">@dimen/layout_marginStart_EditText</item>
+        <item name="android:layout_marginEnd">@dimen/layout_marginEnd_EditText</item>
+        <item name="android:layout_height">@dimen/layout_height_EditText</item>
+        <item name="android:paddingStart">@dimen/paddingStart_EditText</item>
     </style>
 </resources>
