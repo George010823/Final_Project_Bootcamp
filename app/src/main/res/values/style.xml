@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Estilo de background para los diseños de splash y login -->
+        <style name="BackgroundApp"  parent="TextAppearance.AppCompat">
+            <item name="android:background">#EFC844</item>
+        </style>
+
+    <!--Estilo de fuente para el nombre del logo de la aplicacion -->
+    <style name="Fuente_Logo"  parent="TextAppearance.AppCompat">
+        <item name="android:text">@font/anton</item>
+    </style>
+    </resources>
