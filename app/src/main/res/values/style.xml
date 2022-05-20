@@ -5,8 +5,10 @@
             <item name="android:background">#EFC844</item>
         </style>
 
-    <!--Estilo de fuente para el nombre del logo de la aplicacion -->
-    <style name="Fuente_Logo"  parent="TextAppearance.AppCompat">
-        <item name="android:text">@font/anton</item>
+    <!--Estilo de background-fuente-text para el logo de la aplicacion -->
+    <style name="BacGro_FonFam_Tex"  parent="TextAppearance.AppCompat">
+        <item name="android:background">#EFC844</item>
+        <item name="android:fontFamily">@font/anton</item>
+        <item name="android:text">IMDb</item>
     </style>
-    </resources>
+</resources>

@@ -4,14 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/yellow_background">
+    style="@style/BackgroundApp">
 
     <TextView
         android:id="@+id/textview_logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/Fuente_Logo"
-        android:fontFamily="@font/anton"
+        style="@style/BacGro_FonFam_Tex"
         android:text="@string/logo_splash"
         android:textAlignment="center"
         android:textSize="80dp"
