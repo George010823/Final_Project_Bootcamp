@@ -8,4 +8,8 @@
     <string name="PiePagina1">¿No tenes cuenta?</string>
     <string name="PiePagina2">Registrate</string>
     <string name="PiePagina3">Continuar como invitado</string>
+    <string name="CrearCuenta_PagRegistro">Crear una cuenta</string>
+    <string name="ValidarPass_PagRegistro">La contraseña debe contener 8 caracteres</string>
+    <string name="AceptarRegistro">Aceptar</string>
+
 </resources>
