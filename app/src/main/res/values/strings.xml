@@ -11,5 +11,5 @@
     <string name="CrearCuenta_PagRegistro">Crear una cuenta</string>
     <string name="ValidarPass_PagRegistro">La contraseña debe contener 8 caracteres</string>
     <string name="AceptarRegistro">Aceptar</string>
-
+    <string name="Sugerencia_Buscador">Buscar IMDb</string>
 </resources>
