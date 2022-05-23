@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeBuscar"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Inicio"/>
+
+    <item
+        android:id="@+id/searchBuscar"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Buscar"/>
+
+    <item
+        android:id="@+id/playBuscar"
+        android:icon="@drawable/ic_baseline_play_circle_filled_24"
+        android:title="Play"/>
+
+    <item
+        android:id="@+id/userBuscar"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Juan"/>
+</menu>
