@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--Tema base de la aplicacion -->
-        <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
             <item name="colorPrimary">@color/yellow_background</item>
             <item name="colorPrimaryDark">@color/yellow_background</item>
             <item name="colorAccent">@color/yellow_background</item>
