@@ -7,11 +7,11 @@
 
     <TextView
         android:id="@+id/splash"
-        android:layout_width="350dp"
-        android:layout_height="250dp"
+        android:layout_width="@dimen/Splash_LayoutWidth"
+        android:layout_height="@dimen/Splash_LayoutHeight"
         style="@style/BacGro_FonFam_Tex"
         android:textAlignment="center"
-        android:textSize="130sp"
+        android:textSize="@dimen/Splash_TextSize"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

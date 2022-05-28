@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--Tema base de la aplicacion -->
-        <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
             <item name="colorPrimary">@color/yellow_background</item>
             <item name="colorPrimaryDark">@color/yellow_background</item>
             <item name="colorAccent">@color/yellow_background</item>
@@ -36,4 +36,34 @@
         <item name="android:paddingStart">@dimen/paddingStart_EditText</item>
     </style>
 
+    <!--Estilos para las editTex de login -->
+    <style name="ImageView_Login" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">@dimen/LoginImageV_LayoutWidth</item>
+        <item name="android:layout_height">@dimen/LoginImageV_LayoutHeight</item>
+    </style>
+
+    <!--Estilos para la editTex de login Pie1 -->
+    <style name="EditText_LoginPie1" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">@dimen/LogTextViewPie1_layout_width</item>
+        <item name="android:layout_height">@dimen/LogTextViewPie1_layout_height</item>
+        <item name="android:layout_marginStart">@dimen/LogTextViewPie1_marginStart</item>
+        <item name="android:layout_marginBottom">@dimen/LogTextViewPie1_layout_marginStart</item>
+        <item name="android:textSize">@dimen/LogTextViewPie1_textSize</item>
+    </style>
+
+    <!--Estilos para el boton Aceptar de la pagina registro -->
+    <style name="Bottom_RegisterAceptar" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">@dimen/RegisterBtnAcep_layout_width</item>
+        <item name="android:layout_height">@dimen/RegisterBtnAcep_layout_height</item>
+        <item name="android:layout_marginBottom">@dimen/RegisterBtnAcep_layout_marginBottom</item>
+        <item name="android:textSize">@dimen/RegisterBtnAcep_textSize</item>
+    </style>
+
+    <!--Estilos para el boton de navegacion de la pagina de busqueda -->
+    <style name="Bottom_BuscarNav" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">@dimen/BuscarBtnNav_layout_width</item>
+        <item name="android:layout_height">@dimen/BuscarBtnNav_layout_height</item>
+        <item name="android:layout_marginEnd">@dimen/BuscarBtnNav_layout_marginEnd</item>
+        <item name="android:layout_marginStart">@dimen/BuscarBtnNav_layout_marginStart</item>
+    </style>
 </resources>
