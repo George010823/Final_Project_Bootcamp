@@ -28,24 +28,23 @@
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigationView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="0dp"
-        android:layout_marginStart="0dp"
-        android:background="?android:attr/windowBackground"
+        style="@style/Bottom_BuscarNav"
+        android:background="@drawable/rounded_navigation"
+        android:backgroundTint="@color/yellow_background"
+        app:labelVisibilityMode="labeled"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/menunavigation"
-        app:itemBackground="@color/yellow_background"
         app:itemIconTint="@color/black"
-        app:itemTextColor="@color/Small_Title_gray" />
+        app:itemTextColor="@color/black"
+        app:itemIconSize="35dp"/>
 
     <FrameLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="@+id/navigationView"
-        app:layout_constraintTop_toTopOf="parent"/>
-
+        app:layout_constraintTop_toTopOf="parent">
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
