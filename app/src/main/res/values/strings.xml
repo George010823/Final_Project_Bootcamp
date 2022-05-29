@@ -18,4 +18,6 @@
     <string name="RegisterTexInpEma_Hint">Correo electronico</string>
     <string name="RegisterTexInpPass_Hint">Contraseña</string>
     <string name="RegisterBtn_Text">Aceptar</string>
+    <string name="jorge_ivan_gomez_restrepo">Jorge Ivan Gomez Restrepo</string>
+    <string name="Btnlogin_Login">Login</string>
 </resources>

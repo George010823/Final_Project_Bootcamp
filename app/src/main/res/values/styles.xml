@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="style_prueba_jorgegomez">
+        <item name="android:textSize">@dimen/jorge_textsize</item>
+        <item name="android:paddingTop">@dimen/small_padding</item>
+        <item name="android:layout_margin">@dimen/Jorge_margin</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+</resources>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    style="@style/BackgroundApp"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/BackgroundApp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/textview_logo"
@@ -12,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:textSize="80dp"
+        android:textSize="@dimen/TexViewLogin_TexSiz"
         app:layout_constraintBottom_toTopOf="@+id/textview_usuario"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -88,13 +89,13 @@
         app:layout_constraintVertical_bias="0.023" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnLogin"
         style="@style/EditText_Login"
         android:layout_width="@dimen/LoginBtn_LayoutWidth"
         android:layout_height="@dimen/LoginBtn_LayoutHeight"
         android:backgroundTint="@color/Boton_Login"
         android:fontFamily="@font/roboto"
-        android:text="Login"
+        android:text="@string/Btnlogin_Login"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="@dimen/LoginBtn_TextSize"
@@ -120,7 +121,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin"
         app:layout_constraintVertical_bias="0.14" />
 
     <ImageView
@@ -193,3 +194,4 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

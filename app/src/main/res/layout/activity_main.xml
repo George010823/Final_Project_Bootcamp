@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_vertical">
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jorge_ivan_gomez_restrepo"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="100dp"
+        style="@style/style_prueba_jorgegomez" />
+</LinearLayout>
+</layout>
