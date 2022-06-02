@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-<LinearLayout xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/frameLayout"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_gravity="center_vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
 
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.android.example.finalprojectbootcamp.LoginFragment"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
 
-    <TextView
-        android:id="@+id/name_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/jorge_ivan_gomez_restrepo"
-        android:textAlignment="center"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="100dp"
-        style="@style/style_prueba_jorgegomez" />
 </LinearLayout>
-</layout>

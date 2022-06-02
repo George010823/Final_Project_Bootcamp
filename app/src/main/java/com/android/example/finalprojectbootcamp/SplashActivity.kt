@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import androidx.fragment.app.Fragment
 import com.android.example.finalprojectbootcamp.databinding.SplashBinding
 
 class SplashActivity : AppCompatActivity() {
@@ -24,7 +25,7 @@ class SplashActivity : AppCompatActivity() {
 
     private fun handler(){
         Handler(Looper.getMainLooper()).postDelayed({
-            startActivity(Intent(this, LoginActivity::class.java))
+            startActivity(Intent(this, MainActivity::class.java))
             finish()
         }, delayed)
     }
