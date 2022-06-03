@@ -5,6 +5,7 @@
             <item name="colorPrimary">@color/yellow_background</item>
             <item name="colorPrimaryDark">@color/yellow_background</item>
             <item name="colorAccent">@color/yellow_background</item>
+            <item name="android:windowBackground">@drawable/splashscreen</item>
         </style>
     <!--Estilo de background para los diseños de splash y login -->
         <style name="BackgroundApp"  parent="TextAppearance.AppCompat">
