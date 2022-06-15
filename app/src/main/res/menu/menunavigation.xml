@@ -2,22 +2,22 @@
 
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/homeBuscar"
+        android:id="@+id/destination_home"
         android:icon="@drawable/ic_baseline_home_24"
         android:title="Inicio"/>
 
     <item
-        android:id="@+id/searchBuscar"
+        android:id="@+id/destination_search"
         android:icon="@drawable/ic_baseline_search_24"
         android:title="Buscar"/>
 
     <item
-        android:id="@+id/playBuscar"
+        android:id="@+id/destination_play"
         android:icon="@drawable/ic_baseline_play_circle_filled_24"
         android:title="Play"/>
 
     <item
-        android:id="@+id/userBuscar"
+        android:id="@+id/destination_user"
         android:icon="@drawable/ic_baseline_person_24"
         android:title="Juan"/>
 </menu>
