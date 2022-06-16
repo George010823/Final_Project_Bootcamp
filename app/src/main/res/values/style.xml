@@ -5,8 +5,15 @@
             <item name="colorPrimary">@color/yellow_background</item>
             <item name="colorPrimaryDark">@color/yellow_background</item>
             <item name="colorAccent">@color/yellow_background</item>
-            <item name="android:windowBackground">@drawable/splashscreen</item>
         </style>
+
+    <!--Tema base de la aplicacion -->
+    <style name="AppTheme.splashsTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/yellow_background</item>
+        <item name="colorPrimaryDark">@color/yellow_background</item>
+        <item name="colorAccent">@color/yellow_background</item>
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+    </style>
 
     <!--Estilo de background para los diseños de splash y login -->
         <style name="BackgroundApp"  parent="TextAppearance.AppCompat">
@@ -62,7 +69,7 @@
     </style>
 
     <!--Estilos para el boton de navegacion de la pagina de busqueda -->
-    <style name="Bottom_BuscarNav" parent="TextAppearance.AppCompat">
+    <style name="Bottom_BuscarNav" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:layout_width">@dimen/BuscarBtnNav_layout_width</item>
         <item name="android:layout_height">@dimen/BuscarBtnNav_layout_height</item>
         <item name="android:layout_marginEnd">@dimen/BuscarBtnNav_layout_marginEnd</item>

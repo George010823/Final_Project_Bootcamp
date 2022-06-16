@@ -11,20 +11,16 @@ class LoginActivity : AppCompatActivity() {
     private lateinit var binding: LoginBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTheme(R.style.AppTheme_splashsTheme)
         super.onCreate(savedInstanceState)
         binding = LoginBinding.inflate(layoutInflater)
 
-        binding.btnLogin.setOnClickListener{openSearchActivity()}
-
         setContentView(binding.root) //LO ULTIMO EN GUARACHA
         //setContentView(R.layout.login) ANTES
-
-
+        binding.btnLogin.setOnClickListener{openSearchActivity()}
     }
-    private fun openSearchActivity(){
 
-        Toast.makeText(this, "si pasa por aca", Toast.LENGTH_LONG).show()
-        Log.i("INFO", "BOTON LOGIN")
+    private fun openSearchActivity(){
         val goSearch = Intent(this, SearchActivity::class.java)
         startActivity(goSearch)
         }
