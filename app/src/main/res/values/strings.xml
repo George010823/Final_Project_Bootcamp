@@ -20,4 +20,14 @@
     <string name="RegisterBtn_Text">Aceptar</string>
     <string name="jorge_ivan_gomez_restrepo">Jorge Ivan Gomez Restrepo</string>
     <string name="Btnlogin_Login">Login</string>
+    <!-- Add in movies names  -->
+    <string name="movie1_name">Interstelar</string>
+    <string name="movie2_name">Everest</string>
+    <string name="movie3_name">Contra Cara</string>
+    <!-- Add in movies description  -->
+    <string name="movie1_description">Interstelar</string>
+    <string name="movie2_description">Everest</string>
+    <string name="movie3_description">Contra Cara</string>
+
+    <string name="movie_image_content_description">Image of movie</string>
 </resources>
