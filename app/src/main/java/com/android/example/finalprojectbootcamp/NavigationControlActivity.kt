@@ -4,15 +4,19 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.fragment.app.Fragment
-import com.android.example.finalprojectbootcamp.databinding.SearchBinding
+import com.android.example.finalprojectbootcamp.databinding.NavigationcontrolBinding
+import com.android.example.finalprojectbootcamp.home.view.HomeFragment
+import com.android.example.finalprojectbootcamp.play.view.PlayFragment
+import com.android.example.finalprojectbootcamp.search.view.SearchFragment
+import com.android.example.finalprojectbootcamp.user.view.UserFragment
 
-class SearchActivity : AppCompatActivity() {
-    private lateinit var binding: SearchBinding
+class NavigationControlActivity : AppCompatActivity() {
+    private lateinit var binding: NavigationcontrolBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         val splashScreen = installSplashScreen()
         super.onCreate(savedInstanceState)
-        binding = SearchBinding.inflate(layoutInflater)
+        binding = NavigationcontrolBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         seleccionarItemBar()
