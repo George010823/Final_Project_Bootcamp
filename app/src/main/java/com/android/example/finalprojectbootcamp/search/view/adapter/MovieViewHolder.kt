@@ -1,4 +1,4 @@
-package com.android.example.finalprojectbootcamp.adapter
+package com.android.example.finalprojectbootcamp.search.view.adapter
 
 import android.view.View
 import android.widget.ImageView

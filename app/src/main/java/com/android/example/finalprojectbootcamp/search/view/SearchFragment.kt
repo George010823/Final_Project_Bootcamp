@@ -1,4 +1,4 @@
-package com.android.example.finalprojectbootcamp
+package com.android.example.finalprojectbootcamp.search.view
 
 import android.os.Bundle
 import android.util.Log
@@ -9,8 +9,8 @@ import android.view.ViewGroup
 import android.widget.Toast
 import android.widget.Toast.*
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.android.example.finalprojectbootcamp.adapter.MovieAdapter
-import com.android.example.finalprojectbootcamp.data.MoviesProvider
+import com.android.example.finalprojectbootcamp.search.view.adapter.MovieAdapter
+import com.android.example.finalprojectbootcamp.search.model.data.MoviesProvider
 import com.android.example.finalprojectbootcamp.databinding.FragmentSearchBinding
 
 class SearchFragment : Fragment() {

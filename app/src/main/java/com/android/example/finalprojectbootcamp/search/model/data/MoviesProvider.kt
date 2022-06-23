@@ -1,4 +1,4 @@
-package com.android.example.finalprojectbootcamp.data
+package com.android.example.finalprojectbootcamp.search.model.data
 
 import com.android.example.finalprojectbootcamp.Movie
 
